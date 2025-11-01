@@ -1,0 +1,317 @@
+<?xml version="1.0" ?>
+<!-- Generated using onshape-to-robot -->
+<!-- Onshape https://cad.onshape.com/documents/fb4a406ab4b29e10c496e657/w/b08079f16009d2afa06dc17a/e/f02ee571cf0782fd54e0db29 -->
+<robot name="manipulator">
+  <!-- Link 35kg_motor -->
+  <link name="35kg_motor">
+    <inertial>
+      <origin xyz="0.00239635 -0.000110394 0.0295721" rpy="0 0 0"/>
+      <mass value="0.125128"/>
+      <inertia ixx="9.98352e-05" ixy="-4.34201e-09" ixz="2.39209e-06" iyy="9.63208e-05" iyz="6.20399e-09" izz="0.00017649"/>
+    </inertial>
+    <!-- Part 35kg_motor -->
+    <visual>
+      <origin xyz="0.00888767 -9.66556e-05 0.00274007" rpy="0 -0 2.22045e-16"/>
+      <geometry>
+        <mesh filename="package://assets/35kg_motor.stl"/>
+      </geometry>
+      <material name="35kg_motor_material">
+        <color rgba="0.101961 0.101961 0.101961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00888767 -9.66556e-05 0.00274007" rpy="0 -0 2.22045e-16"/>
+      <geometry>
+        <mesh filename="package://assets/35kg_motor.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part spacer -->
+    <visual>
+      <origin xyz="-0.0321613 0.046431 0.000181038" rpy="0 -0 2.22045e-16"/>
+      <geometry>
+        <mesh filename="package://assets/spacer.stl"/>
+      </geometry>
+      <material name="spacer_material">
+        <color rgba="0.917647 0.917647 0.917647 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0321613 0.046431 0.000181038" rpy="0 -0 2.22045e-16"/>
+      <geometry>
+        <mesh filename="package://assets/spacer.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part spacer_2 -->
+    <visual>
+      <origin xyz="0.0319026 -0.0466243 0.000181038" rpy="0 -0 2.22045e-16"/>
+      <geometry>
+        <mesh filename="package://assets/spacer.stl"/>
+      </geometry>
+      <material name="spacer_2_material">
+        <color rgba="0.917647 0.917647 0.917647 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0319026 -0.0466243 0.000181038" rpy="0 -0 2.22045e-16"/>
+      <geometry>
+        <mesh filename="package://assets/spacer.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part spacer_3 -->
+    <visual>
+      <origin xyz="0.0319026 0.046431 0.000181038" rpy="0 -0 2.22045e-16"/>
+      <geometry>
+        <mesh filename="package://assets/spacer.stl"/>
+      </geometry>
+      <material name="spacer_3_material">
+        <color rgba="0.917647 0.917647 0.917647 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0319026 0.046431 0.000181038" rpy="0 -0 2.22045e-16"/>
+      <geometry>
+        <mesh filename="package://assets/spacer.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part oct_v3 -->
+    <visual>
+      <origin xyz="-0.000129333 -9.66556e-05 0.030181" rpy="0 6.33687e-18 -3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/oct_v3.stl"/>
+      </geometry>
+      <material name="oct_v3_material">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.000129333 -9.66556e-05 0.030181" rpy="0 6.33687e-18 -3.14159"/>
+      <geometry>
+        <mesh filename="package://assets/oct_v3.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part spacer_4 -->
+    <visual>
+      <origin xyz="-0.0321613 -0.0466243 0.000181038" rpy="0 -0 2.22045e-16"/>
+      <geometry>
+        <mesh filename="package://assets/spacer.stl"/>
+      </geometry>
+      <material name="spacer_4_material">
+        <color rgba="0.917647 0.917647 0.917647 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0321613 -0.0466243 0.000181038" rpy="0 -0 2.22045e-16"/>
+      <geometry>
+        <mesh filename="package://assets/spacer.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link servo_holder -->
+  <link name="servo_holder">
+    <inertial>
+      <origin xyz="-1.07114e-05 1.21272e-17 -0.0345629" rpy="0 0 0"/>
+      <mass value="0.105309"/>
+      <inertia ixx="4.01746e-05" ixy="2.05818e-11" ixz="-4.63548e-08" iyy="5.3155e-05" iyz="2.00717e-20" izz="2.94695e-05"/>
+    </inertial>
+    <!-- Part ds_servo -->
+    <visual>
+      <origin xyz="-2.7864e-17 3.21466e-17 -0.0499623" rpy="1.59595e-16 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/ds_servo.stl"/>
+      </geometry>
+      <material name="ds_servo_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-2.7864e-17 3.21466e-17 -0.0499623" rpy="1.59595e-16 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/ds_servo.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part servo_holder -->
+    <visual>
+      <origin xyz="0 -4.06576e-20 -0.0490095" rpy="3.10765e-32 -3.62672e-33 2.64747e-32"/>
+      <geometry>
+        <mesh filename="package://assets/servo_holder.stl"/>
+      </geometry>
+      <material name="servo_holder_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 -4.06576e-20 -0.0490095" rpy="3.10765e-32 -3.62672e-33 2.64747e-32"/>
+      <geometry>
+        <mesh filename="package://assets/servo_holder.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link horn_1 -->
+  <link name="horn_1">
+    <inertial>
+      <origin xyz="-0.071076 -0.00518375 0.0218401" rpy="0 0 0"/>
+      <mass value="0.116373"/>
+      <inertia ixx="4.78695e-05" ixy="-1.8578e-05" ixz="5.96602e-08" iyy="0.000207418" iyz="6.55336e-08" izz="0.000188247"/>
+    </inertial>
+    <!-- Part horn_2 -->
+    <visual>
+      <origin xyz="-0.01 0 0.02165" rpy="1.09823e-32 -2.91352e-32 -8.85928e-33"/>
+      <geometry>
+        <mesh filename="package://assets/horn_2.stl"/>
+      </geometry>
+      <material name="horn_2_material">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.01 0 0.02165" rpy="1.09823e-32 -2.91352e-32 -8.85928e-33"/>
+      <geometry>
+        <mesh filename="package://assets/horn_2.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part ds_servo_2 -->
+    <visual>
+      <origin xyz="-0.102045 -0.015 0.02185" rpy="3.14159 1.55906e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/ds_servo.stl"/>
+      </geometry>
+      <material name="ds_servo_2_material">
+        <color rgba="0.301961 0.301961 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.102045 -0.015 0.02185" rpy="3.14159 1.55906e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/ds_servo.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part arm_1 -->
+    <visual>
+      <origin xyz="-0.02 -2.77556e-17 0.02185" rpy="-1.5708 -2.22045e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/arm_1.stl"/>
+      </geometry>
+      <material name="arm_1_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.02 -2.77556e-17 0.02185" rpy="-1.5708 -2.22045e-16 -1.5708"/>
+      <geometry>
+        <mesh filename="package://assets/arm_1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part horn_1 -->
+    <visual>
+      <origin xyz="-0.01 -5.55112e-17 0.02185" rpy="-2.22045e-16 4.60847e-16 1.661e-15"/>
+      <geometry>
+        <mesh filename="package://assets/horn_1.stl"/>
+      </geometry>
+      <material name="horn_1_material">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.01 -5.55112e-17 0.02185" rpy="-2.22045e-16 4.60847e-16 1.661e-15"/>
+      <geometry>
+        <mesh filename="package://assets/horn_1.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link arm_2 -->
+  <link name="arm_2">
+    <inertial>
+      <origin xyz="-0.000630833 0.0994625 0.0208054" rpy="0 0 0"/>
+      <mass value="0.150395"/>
+      <inertia ixx="0.000474123" ixy="2.34312e-06" ixz="6.82468e-07" iyy="5.46681e-05" iyz="3.85787e-05" izz="0.000439431"/>
+    </inertial>
+    <!-- Part 35kg_motor_2 -->
+    <visual>
+      <origin xyz="-0.023441 0.125 0.02765" rpy="7.03368e-16 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/35kg_motor.stl"/>
+      </geometry>
+      <material name="35kg_motor_2_material">
+        <color rgba="0.101961 0.101961 0.101961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.023441 0.125 0.02765" rpy="7.03368e-16 1.5708 0"/>
+      <geometry>
+        <mesh filename="package://assets/35kg_motor.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part arm_2 -->
+    <visual>
+      <origin xyz="-0.01 0.02 0.02465" rpy="1.5708 -5.88399e-32 -7.09285e-32"/>
+      <geometry>
+        <mesh filename="package://assets/arm_2.stl"/>
+      </geometry>
+      <material name="arm_2_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.01 0.02 0.02465" rpy="1.5708 -5.88399e-32 -7.09285e-32"/>
+      <geometry>
+        <mesh filename="package://assets/arm_2.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link gripper -->
+  <link name="gripper">
+    <inertial>
+      <origin xyz="0.0380647 -0.000323199 0.0130458" rpy="0 0 0"/>
+      <mass value="0.0355513"/>
+      <inertia ixx="8.23146e-06" ixy="1.50081e-07" ixz="-7.77264e-06" iyy="2.1921e-05" iyz="9.91436e-08" izz="1.58976e-05"/>
+    </inertial>
+    <!-- Part gripper -->
+    <visual>
+      <origin xyz="-0.01 -0.01 -2.77556e-17" rpy="-3.14159 -1.82436e-31 -1.28283e-30"/>
+      <geometry>
+        <mesh filename="package://assets/gripper.stl"/>
+      </geometry>
+      <material name="gripper_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.01 -0.01 -2.77556e-17" rpy="-3.14159 -1.82436e-31 -1.28283e-30"/>
+      <geometry>
+        <mesh filename="package://assets/gripper.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from arm_2 to gripper -->
+  <joint name="gripper" type="revolute">
+    <origin xyz="0.022959 0.125 0.0366647" rpy="-1.5708 -1.56242e-14 1.5708"/>
+    <parent link="arm_2"/>
+    <child link="gripper"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-1.5708" upper="1.57652e-14"/>
+  </joint>
+  <!-- Joint from horn_1 to arm_2 -->
+  <joint name="arm_2" type="revolute">
+    <origin xyz="-0.102045 -0.025 -0.0024" rpy="3.8704e-16 1.52566e-16 -1.5708"/>
+    <parent link="horn_1"/>
+    <child link="arm_2"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.14159" upper="4.23516e-22"/>
+  </joint>
+  <!-- Joint from servo_holder to horn_1 -->
+  <joint name="arm_1" type="revolute">
+    <origin xyz="-0.02125 -1.02864e-17 -0.0599623" rpy="1.5708 -2.04316e-16 1.5708"/>
+    <parent link="servo_holder"/>
+    <child link="horn_1"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="0" upper="3.14159"/>
+  </joint>
+  <!-- Joint from 35kg_motor to servo_holder -->
+  <joint name="shoulder" type="revolute">
+    <origin xyz="-0.000127064 -9.66556e-05 0.0461401" rpy="3.14159 -4.43556e-17 1.75207e-16"/>
+    <parent link="35kg_motor"/>
+    <child link="servo_holder"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="0" upper="6.28319"/>
+  </joint>
+</robot>
