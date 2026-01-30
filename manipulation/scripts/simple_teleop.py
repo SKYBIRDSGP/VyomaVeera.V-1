@@ -117,20 +117,42 @@ print("\n SETTING TO HOME POSITION .")
 print(f"EE Position: x = {x:.3f} m, y = {y:.3f} m, z = {z:.3f} m")
 
 msg = """
-===== VYOMAVEERA TELEOPERATION =====
-Control Inputs:
-Active Input Keys: 
+Active Input Keys are as follows: 
+
+w   e   r     p
+ s   d   f
+      c   v
+
+w : Incrementing the joint angle of base 
+s : Decrementing the joint angle of base 
+
+e : Incrementing the joint angle of shoulder
+d : Decrementing the joint angle of shoulder
+
+r : Incrementing the joint angle of elbow
+d : Decrementing the joint angle of elbow
+
+c : Gripper close
+v : Gripper open
+
+p : Display current EE position
 """
 
 for _ in range(200):
         p.stepSimulation()
         time.sleep(1./200.)
 
+print("\n===== VYOMAVEERA TELEOPERATION =====")
+print("\nControl Inputs:")
+print(msg)
 
 while True:
     key = getKey()
 
-    if key == 'w':
+    if key =='q':
+        break
+
+    elif key == 'r':
         p.setJointMotorControl2(
         robotId,
         2,  # base joint index
@@ -140,7 +162,7 @@ while True:
         Theta3 = Theta3 - increment
         theta3_fk = theta3_fk - increment
     
-    elif key == 's':
+    elif key == 'f':
         p.setJointMotorControl2(
         robotId,
         2,  # base joint index
@@ -149,6 +171,46 @@ while True:
         )   
         Theta3 = Theta3 + increment
         theta3_fk = theta3_fk + increment
+    
+    elif key == 'e':
+        p.setJointMotorControl2(
+        robotId,
+        1,  # base joint index
+        p.POSITION_CONTROL,
+        targetPosition=(Theta2 + increment)
+        )   
+        Theta2 = Theta2 + increment
+        theta2_fk = theta2_fk + increment
+    
+    elif key == 'd':
+        p.setJointMotorControl2(
+        robotId,
+        1,  # base joint index
+        p.POSITION_CONTROL,
+        targetPosition=(Theta2 - increment)
+        )   
+        Theta2 = Theta2 - increment
+        theta2_fk = theta2_fk - increment
+
+    elif key == 'w':
+        p.setJointMotorControl2(
+        robotId,
+        0,  # base joint index
+        p.POSITION_CONTROL,
+        targetPosition=(Theta1 + increment)
+        )   
+        Theta1 = Theta1 + increment
+        theta1_fk = theta1_fk - increment
+    
+    elif key == 's':
+        p.setJointMotorControl2(
+        robotId,
+        0,  # base joint index
+        p.POSITION_CONTROL,
+        targetPosition=(Theta1 - increment)
+        )   
+        Theta1 = Theta1 - increment
+        theta1_fk = theta1_fk + increment
 
     elif key == 'c':
         gripper_angle = np.radians(90)   # CLOSE
@@ -170,9 +232,15 @@ while True:
             targetPosition=gripper_angle
         )
 
-    elif key == 'q':
-        break
+    elif key == 'p':
+        x, y, z = forward_kinematics(theta1_fk, theta2_fk, theta3_fk)
+        print(f"Current EE Position: x = {x:.3f} m, y = {y:.3f} m, z = {z:.3f} m")
     
+    else:
+        print('\nInvalid Input!')
+        print(msg)
+
+
     x, y, z = forward_kinematics(theta1_fk, theta2_fk, theta3_fk)
     p.resetBasePositionAndOrientation(
         marker_id,
@@ -180,9 +248,8 @@ while True:
         [0, 0, 0, 1]
     )
 
-    for _ in range(200):
+    for _ in range(150):
         p.stepSimulation()
-        time.sleep(1./200.)
-
+        time.sleep(0.5/150.)
 
 p.disconnect()
