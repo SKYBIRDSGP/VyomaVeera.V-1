@@ -67,6 +67,8 @@ theta2_deg = 0
 theta3_deg = 180
 theta4_deg = 90
 
+increment = np.radians(10)
+
 # -----------------------------
 # SAME COMPENSATION LOGIC
 # -----------------------------
@@ -112,7 +114,13 @@ p.resetBasePositionAndOrientation(
 )
 
 print("\n SETTING TO HOME POSITION .")
-print(f"EE Position (FK): x = {x:.3f} m, y = {y:.3f} m, z = {z:.3f} m")
+print(f"EE Position: x = {x:.3f} m, y = {y:.3f} m, z = {z:.3f} m")
+
+msg = """
+===== VYOMAVEERA TELEOPERATION =====
+Control Inputs:
+Active Input Keys: 
+"""
 
 for _ in range(200):
         p.stepSimulation()
@@ -122,10 +130,27 @@ for _ in range(200):
 while True:
     key = getKey()
 
-    if key == 'q':
-        break
+    if key == 'w':
+        p.setJointMotorControl2(
+        robotId,
+        2,  # base joint index
+        p.POSITION_CONTROL,
+        targetPosition=(Theta3 - increment)
+        )   
+        Theta3 = Theta3 - increment
+        theta3_fk = theta3_fk - increment
+    
+    elif key == 's':
+        p.setJointMotorControl2(
+        robotId,
+        2,  # base joint index
+        p.POSITION_CONTROL,
+        targetPosition=(Theta3 + increment)
+        )   
+        Theta3 = Theta3 + increment
+        theta3_fk = theta3_fk + increment
 
-    elif key == 'g':
+    elif key == 'c':
         gripper_angle = np.radians(90)   # CLOSE
         print("Gripper CLOSED")
         p.setJointMotorControl2(
@@ -135,7 +160,7 @@ while True:
         targetPosition=gripper_angle
     )
 
-    elif key == 'r':
+    elif key == 'v':
         gripper_angle = 0.0               # OPEN
         print("Gripper OPEN")
         p.setJointMotorControl2(
@@ -144,6 +169,16 @@ while True:
             p.POSITION_CONTROL,
             targetPosition=gripper_angle
         )
+
+    elif key == 'q':
+        break
+    
+    x, y, z = forward_kinematics(theta1_fk, theta2_fk, theta3_fk)
+    p.resetBasePositionAndOrientation(
+        marker_id,
+        [x, y, z],
+        [0, 0, 0, 1]
+    )
 
     for _ in range(200):
         p.stepSimulation()
