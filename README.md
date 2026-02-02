@@ -63,7 +63,7 @@ The current focus is on achieving stable flight performance with the custom airf
 The detailed procedure for loading and simulating the custom drone model is documented [here](ttps://github.com/SKYBIRDSGP/VyomaVeera.V-1/blob/dev_sarvesh/Custom_Robot.md).
 
 
-## NEXT TASKS:
+## CURRENT/NEXT TASKS:
 
 1. ROS2 Integration for Forward Kinematics based Teleoperation of the Manipulator.
 2. PX4 simulation of the custom drone model.
