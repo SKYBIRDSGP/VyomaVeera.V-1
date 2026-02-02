@@ -1,0 +1,175 @@
+[0.008s] Invoking command in '/home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/build/simulation_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/src/vyomaveera_gz -DCMAKE_INSTALL_PREFIX=/home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo
+[0.126s] -- The C compiler identification is GNU 11.4.0
+[0.209s] -- The CXX compiler identification is GNU 11.4.0
+[0.222s] -- Detecting C compiler ABI info
+[0.270s] -- Detecting C compiler ABI info - done
+[0.275s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.276s] -- Detecting C compile features
+[0.276s] -- Detecting C compile features - done
+[0.279s] -- Detecting CXX compiler ABI info
+[0.334s] -- Detecting CXX compiler ABI info - done
+[0.341s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.342s] -- Detecting CXX compile features
+[0.342s] -- Detecting CXX compile features - done
+[0.351s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.665s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.764s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.766s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.834s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.839s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.847s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.858s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.873s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.929s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.932s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.035s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.072s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.112s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.121s] -- Looking for pthread.h
+[1.176s] -- Looking for pthread.h - found
+[1.176s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.220s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.221s] -- Found Threads: TRUE  
+[1.270s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[1.272s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.302s] -- Found ros2_control: 2.53.0 (/opt/ros/humble/share/ros2_control/cmake)
+[1.303s] -- Found gz_ros2_control: 0.7.17 (/opt/ros/humble/share/gz_ros2_control/cmake)
+[1.307s] -- Found joint_state_broadcaster: 2.52.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[1.482s] -- Found joint_trajectory_controller: 2.52.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[1.521s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[1.533s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.535s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.535s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.620s] -- Found ros_gz_sim: 0.244.20 (/opt/ros/humble/share/ros_gz_sim/cmake)
+[1.622s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.712s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.716s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.717s] -- Added test 'lint_cmake' to check CMake code style
+[1.718s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.720s] -- Added test 'xmllint' to check XML markup files
+[1.722s] -- Configuring done
+[1.726s] -- Generating done
+[1.729s] -- Build files have been written to: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/build/simulation_gazebo
+[1.741s] Invoked command in '/home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/build/simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/src/vyomaveera_gz -DCMAKE_INSTALL_PREFIX=/home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo
+[1.743s] Invoking command in '/home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/build/simulation_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/build/simulation_gazebo -- -j8 -l8
+[1.773s] Invoked command in '/home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/build/simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/build/simulation_gazebo -- -j8 -l8
+[1.780s] Invoking command in '/home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/build/simulation_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/build/simulation_gazebo
+[1.785s] -- Install configuration: ""
+[1.786s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/lib/simulation_gazebo/forward_kinematics.py
+[1.786s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/lib/simulation_gazebo/inverse_kinematics.py
+[1.786s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/lib/simulation_gazebo/forward_kinematics_module.py
+[1.786s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/lib/simulation_gazebo/inverse_kinematics_module.py
+[1.786s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/config
+[1.786s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/config/vyomaveera.yaml
+[1.786s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/config/manipulator.yaml
+[1.786s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/config/positions.yaml
+[1.786s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/launch
+[1.786s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/launch/basic_gazebo.launch.py
+[1.786s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/launch/vyomaveera.launch.py
+[1.786s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/launch/testPositions.launch.py
+[1.786s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/launch/mario.launch.py
+[1.787s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes
+[1.787s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/arm.part
+[1.787s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/arm_1.part
+[1.787s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/link_2.STL
+[1.787s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/manipulator_base.stl
+[1.788s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/spacer.stl
+[1.788s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/claw.part
+[1.788s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/shoulder_1.stl
+[1.788s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/claw_right.STL
+[1.788s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/claw_left.STL
+[1.788s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/servo.part
+[1.788s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/part_1.stl
+[1.789s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/gripper.stl
+[1.789s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/servo_holder.part
+[1.789s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/spacer.part
+[1.789s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/servo_holder.stl
+[1.789s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/base_link.STL
+[1.790s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/arm_2.stl
+[1.790s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/horn_1.stl
+[1.790s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/arm.stl
+[1.791s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/horn_2.part
+[1.791s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/35kg_motor.stl
+[1.791s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/arm_2.part
+[1.791s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/part_1.part
+[1.791s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/link_3.STL
+[1.792s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/arm_1.stl
+[1.792s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/shoulder_1.part
+[1.792s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/oct_v3.stl
+[1.792s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/ds_servo.part
+[1.792s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/35kg_motor.part
+[1.792s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/gripper.part
+[1.792s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/manipulator_base.part
+[1.792s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/link_1.STL
+[1.793s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/horn_2.stl
+[1.793s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/oct_v3.part
+[1.793s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/claw.stl
+[1.793s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/horn_1.part
+[1.793s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/ds_servo.stl
+[1.794s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/part_3.stl
+[1.795s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/part_3.part
+[1.795s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/meshes/servo.stl
+[1.796s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/rviz
+[1.796s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/rviz/urdf.rviz
+[1.796s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/scripts
+[1.796s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/scripts/inverse_kinematics.py
+[1.796s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/scripts/forward_kinematics_module.py
+[1.796s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/scripts/inverse_kinematics_module.py
+[1.796s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/scripts/__pycache__
+[1.796s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/scripts/__pycache__/forward_kinematics_module.cpython-310.pyc
+[1.796s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/scripts/forward_kinematics.py
+[1.796s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf
+[1.796s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/manipulator.urdf
+[1.796s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/robot.urdf
+[1.796s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/manipulator.csv
+[1.796s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets
+[1.796s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/arm.part
+[1.796s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/arm_1.part
+[1.797s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/manipulator_base.stl
+[1.797s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/spacer.stl
+[1.797s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/claw.part
+[1.797s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/shoulder_1.stl
+[1.798s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/servo.part
+[1.798s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/part_1.stl
+[1.798s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/gripper.stl
+[1.798s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/servo_holder.part
+[1.798s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/spacer.part
+[1.798s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/servo_holder.stl
+[1.798s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/arm_2.stl
+[1.799s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/horn_1.stl
+[1.799s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/arm.stl
+[1.799s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/horn_2.part
+[1.799s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/35kg_motor.stl
+[1.800s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/arm_2.part
+[1.800s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/part_1.part
+[1.800s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/arm_1.stl
+[1.800s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/shoulder_1.part
+[1.800s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/oct_v3.stl
+[1.800s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/ds_servo.part
+[1.800s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/35kg_motor.part
+[1.800s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/gripper.part
+[1.801s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/manipulator_base.part
+[1.801s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/horn_2.stl
+[1.801s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/oct_v3.part
+[1.801s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/claw.stl
+[1.801s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/horn_1.part
+[1.801s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/ds_servo.stl
+[1.802s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/part_3.stl
+[1.802s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/part_3.part
+[1.803s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/urdf/assets/servo.stl
+[1.803s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/ament_index/resource_index/package_run_dependencies/simulation_gazebo
+[1.803s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/ament_index/resource_index/parent_prefix_path/simulation_gazebo
+[1.803s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/environment/ament_prefix_path.sh
+[1.804s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/environment/ament_prefix_path.dsv
+[1.804s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/environment/path.sh
+[1.804s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/environment/path.dsv
+[1.804s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/local_setup.bash
+[1.804s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/local_setup.sh
+[1.804s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/local_setup.zsh
+[1.804s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/local_setup.dsv
+[1.804s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/package.dsv
+[1.805s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/ament_index/resource_index/packages/simulation_gazebo
+[1.805s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/cmake/simulation_gazeboConfig.cmake
+[1.805s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/cmake/simulation_gazeboConfig-version.cmake
+[1.805s] -- Installing: /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/install/simulation_gazebo/share/simulation_gazebo/package.xml
+[1.807s] Invoked command in '/home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/build/simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sarvesh/VyomaVeera.V-1/manipulation/vyomaveera_ros_ws/build/simulation_gazebo
